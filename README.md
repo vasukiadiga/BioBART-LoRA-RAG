@@ -2,7 +2,7 @@
 
 **Short description:** Merge **MedMCQA** + **LiveQA** into one cleaned JSONL, fine-tune **`GanjinZero/biobart-base`** with **LoRA** on ~5k samples (compute-limited), and answer questions with **RAG** (BM25 → MiniLM → CrossEncoder) on **CPU**.
 
-> **Status:** Work in progress — some cells still error (generation kwargs, prompt echo, slow indexing). I’m actively fixing and improving.
+> **Status:** Work in progress — generation kwargs, prompt echo, slow indexing. I’m actively fixing and improving.
 
 ---
 
